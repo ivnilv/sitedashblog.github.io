@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-10-25T11:12:00.862Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/10/25/test-1/"/>
+    <id>http://yoursite.com/2019/10/25/test-1/</id>
+    <published>2019-10-25T10:49:00.000Z</published>
+    <updated>2019-10-25T11:12:00.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>the best blog we brat</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;the best blog we brat&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+    
+    
+      <category term="aws" scheme="http://yoursite.com/tags/aws/"/>
+    
+  </entry>
+  
+</feed>
