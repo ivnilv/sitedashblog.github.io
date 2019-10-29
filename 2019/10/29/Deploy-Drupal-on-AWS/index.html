@@ -157,7 +157,7 @@
     </script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>Hexo</title>
+    <title>Deploying Drupal + CiviCRM on an AWS EC2  | Hexo</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="en"  data-spy="scroll" data-target=".list-group">
     
@@ -178,7 +178,7 @@
       <a id="nav-toggle" class="nav-toggle" aria-hidden="true"><i class="fas fa-bars" aria-label="Toggle Navbar"></i></a>
       <ul id="menu" role="menubar" aria-hidden="false">
         
-        <li role="menuitem"><a href="/" class="current"><i class="fas fa-home"></i><span class="menu-text">Home</span></a></li>
+        <li role="menuitem"><a href="/"><i class="fas fa-home"></i><span class="menu-text">Home</span></a></li>
         
         <li role="menuitem"><a href="/archives/"><i class="fas fa-archive"></i><span class="menu-text">Archives</span></a></li>
         
@@ -199,25 +199,22 @@
         <div class="main-container">
           <div class="content">
             
-
-<div id="index" class="index page">
+<div id="post" class="page">
   
   <article class="article post card" itemscope itemtype="http://schema.org/Article">
     <div class="post-block">
       <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/29/Deploy-Drupal-on-AWS/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="John Doe">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/avatar.png">
+       <meta itemprop="name" content="John Doe">
+       <meta itemprop="description" content="">
+       <meta itemprop="image" content="/images/avatar.png">
       </span>
       <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="Hexo">
+       <meta itemprop="name" content="Hexo">
       </span>
     </div>
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2019/10/29/Deploy-Drupal-on-AWS/" itemprop="url">Deploying Drupal + CiviCRM on an AWS EC2 </a>
-      </h1>
+      <h1 class="post-title" itemprop="name headline">Deploying Drupal + CiviCRM on an AWS EC2 </h1>
       <div class="post-meta">
         
         <span class="post-date">
@@ -229,7 +226,6 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      
       <p><em>This guide assumes that you already have an AWS EC2 micro instance started and installed with Linux OS (we’ll use Ubuntu 16.04 as our OS of choice for this guide)</em></p>
 <hr>
 <h2 id="Install-the-LEMP-stack"><a href="#Install-the-LEMP-stack" class="headerlink" title="Install the LEMP stack"></a>Install the LEMP stack</h2><p>We’ll be setting up a Drupal environment based on the LEMP (Linux, nginx, mysql, php) stack. </p>
@@ -335,64 +331,23 @@
 <p>When done, go to the modules list on your site and activate the Views module.</p>
 <p>source: <a href="https://docs.civicrm.org/sysadmin/en/latest/integration/drupal/views/" target="_blank" rel="noopener">https://docs.civicrm.org/sysadmin/en/latest/integration/drupal/views/</a></p>
 
-      
     </main>
     <footer class="post-footer">
       
     </footer>
   </article>
   
-  <article class="article post card" itemscope itemtype="http://schema.org/Article">
-    <div class="post-block">
-      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/test-1/">
-      <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="John Doe">
-        <meta itemprop="description" content="">
-        <meta itemprop="image" content="/images/avatar.png">
-      </span>
-      <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="Hexo">
-      </span>
+  
+  <nav class="page-nav">
+    <div class="page-nav-next page-nav-item">
+      
+      <a href="/2019/10/25/test-1/" rel="next" title="test"><i class="fas fa-angle-left"></i><span class="nav-title">test</span></a>
+      
     </div>
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2019/10/25/test-1/" itemprop="url">test</a>
-      </h1>
-      <div class="post-meta">
-        
-        <span class="post-date">
-          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2019-10-25T10:49:00+00:00">2019-10-25 10:49:00</time></span>
-        </span>
-        
-        
-        
-        <span class="post-meta-divider divider">|</span>
-        
-        <span class="post-categories">
-          
-          <i class="far fa-folder-open"></i><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a></span>
-        </span>
-        
-        
-      </div>
-    </header>
-    <main class="post-main" itemprop="articleBody">
+    <div class="page-nav-prev page-nav-item">
       
-      <p>the best blog we brat</p>
-
-      
-    </main>
-    <footer class="post-footer">
-      
-      <div class="post-tags">
-        
-        <a class="post-tag button" href="/tags/aws/" rel="tag"><i class="fas fa-tags"></i>aws</a>
-        
-      </div>
-      
-    </footer>
-  </article>
-  
+    </div>
+  </nav>
   
   
 </div>
@@ -454,6 +409,17 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+    
+    
+    
+    <hr>
+    <div class="post-toc sidebar-item" id="toc-div">
+      <div><i class="fas fa-list-ol"></i>Table of Contents</div>
+      <div class="post-toc-content"><ol class="list-group toc"><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Install-the-LEMP-stack"><span class="toc-text">Install the LEMP stack</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Create-DB-and-DB-user"><span class="toc-text">Create DB and DB user</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Download-the-installer-packages"><span class="toc-text">Download the installer packages</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Install-and-Setup-Drupal"><span class="toc-text">Install and Setup Drupal</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Verify-installation"><span class="toc-text">Verify installation</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Install-CiviCRM-5-for-Drupal"><span class="toc-text">Install CiviCRM 5 for Drupal</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Enable-Drupal-Clean-URLs-with-nginx"><span class="toc-text">Enable Drupal Clean URLs with nginx</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Test-drive-CiviCRM"><span class="toc-text">Test-drive CiviCRM</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Set-the-CiviCRM-extension-directory-using-settings-files-variables"><span class="toc-text">Set the CiviCRM extension directory using settings files variables</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Install-certificate-from-Let’s-encrypt"><span class="toc-text">Install certificate from Let’s encrypt</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Force-nginx-to-redirect-all-connections-to-HTTPS"><span class="toc-text">Force nginx to redirect all connections to HTTPS</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Configure-Drupal-to-use-private-files-and-secure-it-within-nginx"><span class="toc-text">Configure Drupal to use private files and secure it within nginx</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Install-Drush-to-the-server-for-the-appropriate-user"><span class="toc-text">Install Drush to the server for the appropriate user</span></a></li><li class="toc-item toc-level-2"><a class="list-group-item toc-link" href="#Modify-the-Drupal-settings-files-so-that-Drupal-views-can-use-the-CiviCRM-database"><span class="toc-text">Modify the Drupal settings files so that Drupal views can use the CiviCRM database</span></a></li></ol></div>
+    </div>
+    
     
     
     <hr>
