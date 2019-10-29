@@ -4,32 +4,6 @@
   
     
     <entry>
-      <title>added on macos</title>
-      <link href="/2019/10/29/added-on-macos/"/>
-      <url>/2019/10/29/added-on-macos/</url>
-      
-        <content type="html"><![CDATA[<p>this post was originally authored on a MacOS device</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>new post</title>
-      <link href="/2019/10/29/new-post/"/>
-      <url>/2019/10/29/new-post/</url>
-      
-        <content type="html"><![CDATA[<p>this is the latest post in my blog</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>test</title>
       <link href="/2019/10/25/test-1/"/>
       <url>/2019/10/25/test-1/</url>
@@ -91,20 +65,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>linux</title>
-      <link href="/linux/index.html"/>
-      <url>/linux/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -124,9 +87,20 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>linux</title>
+      <link href="/linux/index.html"/>
+      <url>/linux/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

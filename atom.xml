@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-29T16:29:23.000Z</updated>
+  <updated>2019-10-25T11:12:00.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,52 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>added on macos</title>
-    <link href="http://yoursite.com/2019/10/29/added-on-macos/"/>
-    <id>http://yoursite.com/2019/10/29/added-on-macos/</id>
-    <published>2019-10-29T16:29:19.000Z</published>
-    <updated>2019-10-29T16:29:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>this post was originally authored on a MacOS device</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;this post was originally authored on a MacOS device&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>new post</title>
-    <link href="http://yoursite.com/2019/10/29/new-post/"/>
-    <id>http://yoursite.com/2019/10/29/new-post/</id>
-    <published>2019-10-29T16:03:40.000Z</published>
-    <updated>2019-10-29T16:03:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>this is the latest post in my blog</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;this is the latest post in my blog&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>test</title>
