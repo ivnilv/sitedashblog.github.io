@@ -51,17 +51,6 @@
     
     
     <entry>
-      <title>kubernetes</title>
-      <link href="/kubernetes/index.html"/>
-      <url>/kubernetes/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -84,9 +73,9 @@
     
     
     <entry>
-      <title>linux</title>
-      <link href="/linux/index.html"/>
-      <url>/linux/index.html</url>
+      <title>kubernetes</title>
+      <link href="/kubernetes/index.html"/>
+      <url>/kubernetes/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -109,6 +98,17 @@
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux</title>
+      <link href="/linux/index.html"/>
+      <url>/linux/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
