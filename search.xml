@@ -51,9 +51,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>kubernetes</title>
+      <link href="/kubernetes/index-1.html"/>
+      <url>/kubernetes/index-1.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -62,9 +62,9 @@
     
     
     <entry>
-      <title>kubernetes</title>
-      <link href="/kubernetes/index-1.html"/>
-      <url>/kubernetes/index-1.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -95,9 +95,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>linux</title>
+      <link href="/linux/index.html"/>
+      <url>/linux/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -106,9 +106,9 @@
     
     
     <entry>
-      <title>linux</title>
-      <link href="/linux/index.html"/>
-      <url>/linux/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
